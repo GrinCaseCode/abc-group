@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'Hauora';
+	src: local('Hauora-Light'), local('Hauora-Light'),
+	url('../fonts/Hauora-Light.woff2') format('woff2'),
+	url('../fonts/Hauora-Light.woff') format('woff'),
+	url('../fonts/Hauora-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Hauora';
+	src: local('Hauora-Regular'), local('Hauora-Regular'),
+	url('../fonts/Hauora-Regular.woff2') format('woff2'),
+	url('../fonts/Hauora-Regular.woff') format('woff'),
+	url('../fonts/Hauora-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Hauora';
+	src: local('Hauora-Medium'), local('Hauora-Medium'),
+	url('../fonts/Hauora-Medium.woff2') format('woff2'),
+	url('../fonts/Hauora-Medium.woff') format('woff'),
+	url('../fonts/Hauora-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Hauora';
+	src: local('Hauora-SemiBold'), local('Hauora-SemiBold'),
+	url('../fonts/Hauora-SemiBold.woff2') format('woff2'),
+	url('../fonts/Hauora-SemiBold.woff') format('woff'),
+	url('../fonts/Hauora-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Hauora';
+	src: local('Hauora-Bold'), local('Hauora-Bold'),
+	url('../fonts/Hauora-Bold.woff2') format('woff2'),
+	url('../fonts/Hauora-Bold.woff') format('woff'),
+	url('../fonts/Hauora-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Hauora';
+	src: local('Hauora-ExtraBold'), local('Hauora-ExtraBold'),
+	url('../fonts/Hauora-ExtraBold.woff2') format('woff2'),
+	url('../fonts/Hauora-ExtraBold.woff') format('woff'),
+	url('../fonts/Hauora-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeueRegular.eot');
+	src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BebasNeueRegular.woff') format('woff'),
+	url('../fonts/BebasNeueRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeueBold.eot');
+	src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BebasNeueBold.woff') format('woff'),
+	url('../fonts/BebasNeueBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
