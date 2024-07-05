@@ -383,6 +383,14 @@
     .billbord::before {
         min-height: 765px;
     }
+    .slick-dots li {
+        width: 8px;
+        height: 8px;
+    }
+    .slick-dots li button {
+        width: 8px;
+        height: 8px;
+    }
 }
 
 /* Small Devices, Tablets */
