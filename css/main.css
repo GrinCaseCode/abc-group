@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: normal;
 }
 .wrapper {
-	padding-top: 240px;
+	padding-top: 219px;
 	overflow: hidden;
 }
 a {
@@ -126,7 +126,7 @@ form {
 	color: #2b6763;
 }
 .header__middle {
-	padding: 32px 0;
+	padding: 25px 0;
 	background: #fff;
 }
 .header__wrapper {
@@ -215,7 +215,7 @@ form {
 }
 .menu > li > a {
 	font-size: 20px;
-	height: 62px;
+	height: 55px;
 	line-height: 100%;
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
@@ -230,7 +230,7 @@ form {
 }
 
 .billbord {
-	padding-top: 86px;
+	padding-top: 76px;
 	min-height: 716px;
 	position: relative;
 	z-index: 1;
@@ -252,7 +252,7 @@ form {
 .billbord__title {
 	font-size: 100px;
 	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	line-height: 100%;
 	color: #1c1f1e;
 	text-transform: uppercase;
@@ -316,7 +316,7 @@ form {
 	background: #469373;
 }
 .billbord .line-form {
-	margin-top: 55px;
+	margin-top: 45px;
 }
 .checkbox {
 	font-size: 14px;
@@ -392,7 +392,7 @@ form {
 	display: none;
 }
 .slider-billbord__item {
-	height: 542px;
+	height: 520px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -402,7 +402,7 @@ form {
 	max-height: 100%;
 }
 .slider-billbord {
-	margin-left: -247px;
+	margin-left: -215px;
 	border-radius: 8px;
 	background: rgba(255, 255, 255, 0.4);
 }
@@ -1047,7 +1047,7 @@ form {
 .fancybox-can-pan .fancybox-content, .fancybox-can-swipe .fancybox-content {
 	cursor: initial;
 }
-.checkbox {
+.modal-wrap .checkbox {
 	margin-top: 14px;
 	max-width: 342px;
 }

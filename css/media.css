@@ -114,7 +114,7 @@
     .item-advantage__icon {
         width: 30px;
         height: 30px;
-        padding: 5px;
+        padding: 7px;
     }
     body {
         font-size: 12px;
@@ -184,6 +184,9 @@
     }
     .wrapper {
         padding-top: 197px;
+    }
+    .checkbox {
+        font-size: 13px;
     }
 }
 
