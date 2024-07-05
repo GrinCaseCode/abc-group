@@ -395,6 +395,9 @@
     .list-socials {
         gap: 10px;
     }
+    .body_noscroll {
+        overflow: hidden;
+    }
 }
 
 /* Small Devices, Tablets */
