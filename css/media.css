@@ -391,6 +391,9 @@
         width: 8px;
         height: 8px;
     }
+    .list-socials {
+        gap: 10px;
+    }
 }
 
 /* Small Devices, Tablets */
