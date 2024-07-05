@@ -367,7 +367,7 @@
         transform: rotate(180deg);
     }
     .menu-mobile__line {
-        gap: 20px;
+        gap: 30px;
         margin-bottom: 25px;
         display: flex;
         align-items: flex-start;
