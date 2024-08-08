@@ -1376,3 +1376,99 @@ form {
 	max-width: 100%;
 	max-height: 100%;
 } 
+
+.billbord_about {
+	background-image: url(../img/billbord_about.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.billbord_about::before {
+	display: none;
+}
+.billbord_about .billbord__descr {
+	font-size: 24px;
+	margin-bottom: 39px;
+	max-width: 613px;
+	line-height: 120%;
+	font-weight: 600;
+}
+.billbord__text p {
+	margin-bottom: 15px;
+}
+.billbord__text {
+	max-width: 705px;
+	font-size: 16px;
+	line-height: 160%;
+}
+.descr-section {
+	font-size: 16px;
+	max-width: 635px;
+	margin-bottom: 56px;
+	line-height: 160%;
+}
+.item-service.item-service_main {
+	min-height: 240px;
+	padding-left: 33px;
+	padding-right: 202px;
+	background-image: url(../img/bg_service_main.svg);
+	background-position: right top;
+}
+.item-service__text {
+	font-size: 16px;
+	margin-top: 20px;
+	line-height: 160%;
+	display: block;
+	color: #1c1f1e;
+}
+.item-service.item-service_main .item-service__image {
+	max-width: 230px;
+	top: 0;
+	bottom: 0 !important;
+	align-items: flex-end;
+	left: auto;
+}
+.item-service.item-service_main .item-service__title {
+	min-height: 53px;
+    max-width: 259px;
+}
+.row > div:nth-child(5) .item-service.item-service_main {
+	padding-right: 204px;
+}
+.row > div:nth-child(3) .item-service__image {
+	right: 7px;
+	bottom: 7px !important;
+}
+.advantages.advantages_page {
+	background: #fff;
+}
+.advantages_page .item-advantage {
+	background-image: url(../img/bg_avd_page.svg) !important;
+}
+.advantages_page .item-advantage::before {
+	background: #fbfcfc;
+}
+.item-advantage.item-advantage_main {
+	padding-left: 21px;
+	min-height: 200px;
+	height: 100%;
+	border-radius: 8px;
+	background: #2b6763 !important;
+	color: #fff;
+}
+.item-advantage.item-advantage_main::before {
+	display: none;
+}
+.item-advantage.item-advantage_main .title-block {
+	margin-bottom: 22px;
+	color: #fff;
+}
+.advantages_page .title-section {
+	margin-bottom: 45px;
+}
+.billbord_about + .services {
+	margin-top: -150px;
+	padding-top: 0;
+	position: relative;
+	z-index: 2;
+}

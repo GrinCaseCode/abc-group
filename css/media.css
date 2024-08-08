@@ -264,6 +264,34 @@
         height: 269px;
         padding: 6px;
     }
+
+    .billbord_about .billbord__descr {
+        font-size: 21px;
+        margin-bottom: 24px;
+        max-width: 589px;
+    }
+    .billbord__text {
+        max-width: 655px;
+        font-size: 14px;
+    }
+    .descr-section {
+        font-size: 14px;
+        max-width: 550px;
+        margin-bottom: 30px;
+    }
+    .item-service__text {
+        font-size: 14px;
+        margin-top: 9px;
+    }
+    .item-service.item-service_main .item-service__title {
+        min-height: 38px;
+    }
+    .item-service.item-service_main .item-service__image {
+        max-width: 185px;
+    }
+    .item-service.item-service_main {
+        padding-right: 190px !important;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -766,6 +794,43 @@
         padding-top: 30px;
         padding-bottom: 45px;
     }
+
+    .billbord_about .billbord__descr {
+        font-size: 17px;
+        margin-bottom: 16px;
+        max-width: 452px;
+    }
+    .item-service.item-service_main {
+        background-size: 440px auto;
+    }
+    .item-service.item-service_main {
+        min-height: 210px;
+        padding-left: 15px;
+    }
+    .item-service__text {
+        font-size: 13px;
+    }
+    .item-service.item-service_main .item-service__title {
+        font-size: 15px;
+        min-height: initial;
+    }
+    .item-advantage.item-advantage_main::after {
+        display: none;
+    }
+    .item-advantage.item-advantage_main .title-block {
+        padding-left: 0;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .advantages_page .item-advantage::after {
+        background: #fbfcfc;
+    }
+    .item-advantage .title-block {
+        min-height: 29px;
+    }
+    .advantages_page .title-section {
+        margin-bottom: 25px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -830,6 +895,19 @@
     }
     .item-doc {
         max-width: 171px;
+    }
+
+    .billbord_about + .services {
+        margin-top: -95px;
+    }
+    .item-service.item-service_main .item-service__image {
+        max-width: 147px;
+    }
+    .item-service.item-service_main {
+        padding-right: 140px !important;
+    }
+    .item-service__text {
+        font-size: 12px;
     }
 }
 
